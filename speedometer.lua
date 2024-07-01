@@ -1,3 +1,6 @@
 function text(content)
     SetTextFont(1)
     SetTextProportional(0)
+    SetTextScale(1.9,1.9)
+    SetTextEntry("STRING")
+    AddTextComponentString(content)
