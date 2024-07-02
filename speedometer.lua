@@ -13,6 +13,7 @@ Citizen.CreateThread(function()
         Citizen.Wait(2)
 
         -- kph's is = *3.6
+            
         -- mph'S is = *2.2369
 
         local speed = GetEntitySpeed(GetVehiclePedIsIn(GetPlayerPed(-1), false)) * 3.6
